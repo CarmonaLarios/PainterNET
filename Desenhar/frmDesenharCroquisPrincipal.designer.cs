@@ -54,13 +54,13 @@
             this.tsLblCor2 = new System.Windows.Forms.ToolStripLabel();
             this.tsTxtCorSecundaria = new System.Windows.Forms.ToolStripTextBox();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.tsXInicio = new System.Windows.Forms.ToolStripLabel();
+            this.tsYInicio = new System.Windows.Forms.ToolStripLabel();
             this.tsLabelX = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.tsLabelY = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsXInicio = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsYInicio = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip1.SuspendLayout();
             this.tsFerramentas.SuspendLayout();
             this.toolStrip2.SuspendLayout();
@@ -74,9 +74,9 @@
             this.arquivoToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -103,7 +103,7 @@
             this.novoToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.novoToolStripMenuItem1.Name = "novoToolStripMenuItem1";
             this.novoToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.novoToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.novoToolStripMenuItem1.Size = new System.Drawing.Size(182, 26);
             this.novoToolStripMenuItem1.Text = "&Novo";
             this.novoToolStripMenuItem1.Click += new System.EventHandler(this.novoToolStripMenuItem1_Click);
             // 
@@ -135,7 +135,7 @@
             // salvarcomoToolStripMenuItem
             // 
             this.salvarcomoToolStripMenuItem.Name = "salvarcomoToolStripMenuItem";
-            this.salvarcomoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salvarcomoToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
             this.salvarcomoToolStripMenuItem.Text = "Salvar &como";
             this.salvarcomoToolStripMenuItem.Click += new System.EventHandler(this.salvarcomoToolStripMenuItem_Click);
             // 
@@ -152,7 +152,7 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(182, 26);
             this.sairToolStripMenuItem.Text = "Sai&r";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -177,7 +177,7 @@
             this.tsFerramentas.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
             this.tsFerramentas.Location = new System.Drawing.Point(0, 28);
             this.tsFerramentas.Name = "tsFerramentas";
-            this.tsFerramentas.Size = new System.Drawing.Size(72, 422);
+            this.tsFerramentas.Size = new System.Drawing.Size(87, 526);
             this.tsFerramentas.TabIndex = 2;
             this.tsFerramentas.Text = "Ferramentas";
             // 
@@ -189,7 +189,7 @@
             this.tsBtnSelecionar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsBtnSelecionar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnSelecionar.Name = "tsBtnSelecionar";
-            this.tsBtnSelecionar.Size = new System.Drawing.Size(69, 36);
+            this.tsBtnSelecionar.Size = new System.Drawing.Size(84, 36);
             this.tsBtnSelecionar.Text = "Selecionar";
             this.tsBtnSelecionar.Click += new System.EventHandler(this.tsBtnSelecionar_Click);
             // 
@@ -200,7 +200,7 @@
             this.tsBtnLinha.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsBtnLinha.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnLinha.Name = "tsBtnLinha";
-            this.tsBtnLinha.Size = new System.Drawing.Size(69, 36);
+            this.tsBtnLinha.Size = new System.Drawing.Size(84, 36);
             this.tsBtnLinha.Text = "Linha";
             this.tsBtnLinha.Click += new System.EventHandler(this.tsBtnLinha_Click);
             // 
@@ -211,7 +211,7 @@
             this.tsBtnSelecionarRetangulo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsBtnSelecionarRetangulo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnSelecionarRetangulo.Name = "tsBtnSelecionarRetangulo";
-            this.tsBtnSelecionarRetangulo.Size = new System.Drawing.Size(69, 36);
+            this.tsBtnSelecionarRetangulo.Size = new System.Drawing.Size(84, 36);
             this.tsBtnSelecionarRetangulo.Text = "Retângulo";
             this.tsBtnSelecionarRetangulo.Click += new System.EventHandler(this.tsBtnSelecionarQuadrado_Click);
             // 
@@ -222,7 +222,7 @@
             this.tsBtnElipse.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsBtnElipse.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnElipse.Name = "tsBtnElipse";
-            this.tsBtnElipse.Size = new System.Drawing.Size(69, 36);
+            this.tsBtnElipse.Size = new System.Drawing.Size(84, 36);
             this.tsBtnElipse.Text = "Circulo";
             this.tsBtnElipse.Click += new System.EventHandler(this.tsBtnElipse_Click);
             // 
@@ -233,7 +233,7 @@
             this.tsBtnTriangulo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsBtnTriangulo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsBtnTriangulo.Name = "tsBtnTriangulo";
-            this.tsBtnTriangulo.Size = new System.Drawing.Size(69, 36);
+            this.tsBtnTriangulo.Size = new System.Drawing.Size(84, 36);
             this.tsBtnTriangulo.Text = "Desenhar triângulo";
             this.tsBtnTriangulo.Click += new System.EventHandler(this.tsBtnTriangulo_Click);
             // 
@@ -250,7 +250,7 @@
             this.tsTextoHorizVert.Margin = new System.Windows.Forms.Padding(13, 1, 1, 1);
             this.tsTextoHorizVert.Name = "tsTextoHorizVert";
             this.tsTextoHorizVert.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.tsTextoHorizVert.Size = new System.Drawing.Size(55, 36);
+            this.tsTextoHorizVert.Size = new System.Drawing.Size(70, 36);
             this.tsTextoHorizVert.Text = "Ferramenta de texto";
             this.tsTextoHorizVert.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.tsTextoHorizVert.ToolTipText = "Ferramenta texto";
@@ -277,7 +277,7 @@
             this.tsFonte.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsFonte.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsFonte.Name = "tsFonte";
-            this.tsFonte.Size = new System.Drawing.Size(69, 36);
+            this.tsFonte.Size = new System.Drawing.Size(84, 36);
             this.tsFonte.Text = "Escolher fonte";
             this.tsFonte.Click += new System.EventHandler(this.tsTexto_Click);
             // 
@@ -288,7 +288,7 @@
             this.tsLblCor1.Image = ((System.Drawing.Image)(resources.GetObject("tsLblCor1.Image")));
             this.tsLblCor1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsLblCor1.Name = "tsLblCor1";
-            this.tsLblCor1.Size = new System.Drawing.Size(69, 24);
+            this.tsLblCor1.Size = new System.Drawing.Size(84, 24);
             this.tsLblCor1.Text = "Cor";
             // 
             // tsTxtCorPrimaria
@@ -301,7 +301,7 @@
             this.tsTxtCorPrimaria.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.tsTxtCorPrimaria.Name = "tsTxtCorPrimaria";
             this.tsTxtCorPrimaria.ReadOnly = true;
-            this.tsTxtCorPrimaria.Size = new System.Drawing.Size(59, 20);
+            this.tsTxtCorPrimaria.Size = new System.Drawing.Size(74, 20);
             this.tsTxtCorPrimaria.ToolTipText = "Clique para selecionar uma cor de contorno";
             this.tsTxtCorPrimaria.Click += new System.EventHandler(this.tsTxtCorPrimaria_Click);
             // 
@@ -309,7 +309,7 @@
             // 
             this.tsLblCor2.ForeColor = System.Drawing.Color.White;
             this.tsLblCor2.Name = "tsLblCor2";
-            this.tsLblCor2.Size = new System.Drawing.Size(69, 20);
+            this.tsLblCor2.Size = new System.Drawing.Size(84, 20);
             this.tsLblCor2.Text = "Cor 2";
             this.tsLblCor2.Visible = false;
             // 
@@ -323,7 +323,7 @@
             this.tsTxtCorSecundaria.MaxLength = 0;
             this.tsTxtCorSecundaria.Name = "tsTxtCorSecundaria";
             this.tsTxtCorSecundaria.ReadOnly = true;
-            this.tsTxtCorSecundaria.Size = new System.Drawing.Size(59, 20);
+            this.tsTxtCorSecundaria.Size = new System.Drawing.Size(74, 20);
             this.tsTxtCorSecundaria.ToolTipText = "Clique para selecionar uma cor de preenchimento";
             this.tsTxtCorSecundaria.Visible = false;
             this.tsTxtCorSecundaria.Click += new System.EventHandler(this.tsTxtCorSecundaria_Click);
@@ -341,11 +341,25 @@
             this.tsLabelY,
             this.toolStripSeparator7,
             this.toolStripSeparator8});
-            this.toolStrip2.Location = new System.Drawing.Point(72, 425);
+            this.toolStrip2.Location = new System.Drawing.Point(87, 529);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(728, 25);
+            this.toolStrip2.Size = new System.Drawing.Size(980, 25);
             this.toolStrip2.TabIndex = 3;
             this.toolStrip2.Text = "toolStrip2";
+            // 
+            // tsXInicio
+            // 
+            this.tsXInicio.ForeColor = System.Drawing.Color.White;
+            this.tsXInicio.Name = "tsXInicio";
+            this.tsXInicio.Size = new System.Drawing.Size(37, 22);
+            this.tsXInicio.Text = "X1:0";
+            // 
+            // tsYInicio
+            // 
+            this.tsYInicio.ForeColor = System.Drawing.Color.White;
+            this.tsYInicio.Name = "tsYInicio";
+            this.tsYInicio.Size = new System.Drawing.Size(36, 22);
+            this.tsYInicio.Text = "Y1:0";
             // 
             // tsLabelX
             // 
@@ -372,41 +386,28 @@
             this.toolStripSeparator7.Name = "toolStripSeparator7";
             this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
             // 
-            // tsXInicio
-            // 
-            this.tsXInicio.ForeColor = System.Drawing.Color.White;
-            this.tsXInicio.Name = "tsXInicio";
-            this.tsXInicio.Size = new System.Drawing.Size(37, 22);
-            this.tsXInicio.Text = "X1:0";
-            // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.ForeColor = System.Drawing.Color.White;
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
             // 
-            // tsYInicio
-            // 
-            this.tsYInicio.ForeColor = System.Drawing.Color.White;
-            this.tsYInicio.Name = "tsYInicio";
-            this.tsYInicio.Size = new System.Drawing.Size(36, 22);
-            this.tsYInicio.Text = "Y1:0";
-            // 
             // frmDesenharCroquisPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.tsFerramentas);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmDesenharCroquisPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Desenhar  Alpha 0.0.0.1";
+            this.Text = "PainterNET  Alpha 0.0.0.1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmDesenharCroquisPrincipal_FormClosed);
             this.Load += new System.EventHandler(this.frmDesenharCroquisPrincipal_Load);
