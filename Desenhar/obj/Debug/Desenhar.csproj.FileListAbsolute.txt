@@ -1,0 +1,12 @@
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\AcesCEM.Forms.frmDesenharCroquisPrincipal.resources
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\AcesCEM.Forms.frmDesenhoTamanho.resources
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\AcesCEM.Forms.frmEdicaoCroqui.resources
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\AcesCEM.Forms.frmTextoCroqui.resources
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\Desenhar.Properties.Resources.resources
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\Desenhar.csproj.GenerateResource.cache
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\Desenhar.csproj.CoreCompileInputs.cache
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\bin\Debug\Desenhar.exe.config
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\bin\Debug\Desenhar.exe
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\bin\Debug\Desenhar.pdb
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\Desenhar.exe
+C:\Projetos Dev\Desenhar\Desenhar\Desenhar\obj\Debug\Desenhar.pdb
