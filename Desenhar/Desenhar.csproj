@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Desenhar</RootNamespace>
     <AssemblyName>Desenhar</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -73,10 +74,13 @@
       <DependentUpon>frmTextoCroqui.cs</DependentUpon>
     </Compile>
     <Compile Include="Geral.cs" />
+    <Compile Include="Models\Retangle.cs" />
+    <Compile Include="Models\Shape.cs" />
+    <Compile Include="Models\Triangle.cs" />
     <Compile Include="MsgConst.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TiposFormas.cs" />
+    <Compile Include="Enums\TiposFormas.cs" />
     <EmbeddedResource Include="frmDesenharCroquisPrincipal.resx">
       <DependentUpon>frmDesenharCroquisPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
