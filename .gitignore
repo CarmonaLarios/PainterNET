@@ -1,0 +1,20 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Desenhar/FileContentIndex
+/Desenhar/.vs
+/Desenhar/bin/Debug/Desenhar.exe
+/Desenhar/bin/Debug/Desenhar.exe.config
+/Desenhar/bin/Debug/Desenhar.pdb
+/Desenhar/obj/Debug/TempPE
+/Desenhar/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+/Desenhar/obj/Debug/AcesCEM.Forms.frmDesenharCroquisPrincipal.resources
+/Desenhar/obj/Debug/Desenhar.csproj.AssemblyReference.cache
+/Desenhar/obj/Debug/Desenhar.csproj.CoreCompileInputs.cache
+/Desenhar/obj/Debug/Desenhar.csproj.FileListAbsolute.txt
+/Desenhar/obj/Debug/Desenhar.csproj.GenerateResource.cache
+/Desenhar/obj/Debug/Desenhar.exe
+/Desenhar/obj/Debug/Desenhar.pdb
+/Desenhar/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+/Desenhar/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
